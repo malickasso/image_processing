@@ -154,11 +154,11 @@ Ces vecteurs servent de **features d'entrée** pour entraîner un modèle de cla
 ---
 
 ## Auteur
-**ASSOUMA Abdou Malick**
-**BADI Toundé Fiacre**
-**DOUGLOUI Adinette**
-**YEMADJE Waldo Coras**
-**BANGANA C.K. Landry**
+- **ASSOUMA Abdou Malick**
+- **BADI Toundé Fiacre**
+- **DOUGLOUI Adinette**
+- **YEMADJE Waldo Coras**
+- **BANGANA C.K. Landry**
 Master 1 Sécurité Informatique - IFRI, Université d'Abomey-Calavi  
 
-Cours : Traitement d'image — Dr Arnaud AHOUANDJINOU
+Cours : Traitement d'image - **Dr Arnaud AHOUANDJINOU**

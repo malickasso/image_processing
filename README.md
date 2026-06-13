@@ -29,7 +29,7 @@ pip install numpy matplotlib opencv-python scikit-image scipy
 Project/
 ├── tp_chiffres.py      # script principal
 ├── README.md           # ce fichier
-├── Code 0.png          # image d'entrée (à fournir)
+├── test.jpeg           # image d'entrée (à fournir)
 └── ...                 # autres images de données
 ```
 
@@ -37,14 +37,14 @@ Project/
 
 ## Utilisation
 
-1. Place ton image dans le même dossier que `tp_chiffres.py`
-2. Modifie la ligne suivante dans le script si ton image a un nom différent :
+1. Placez votre image dans le même dossier que `tp_chiffres.py`
+2. Modifiez la ligne suivante dans le script si ton image a un nom différent :
 
 ```python
-IMAGE_PATH = 'Code 0.png'   # ← mets le bon nom ici
+IMAGE_PATH = 'test.jpeg'   # ← mets le bon nom ici
 ```
 
-3. Lance le script :
+3. Lancez le script :
 
 ```bash
 python3 tp_chiffres.py
@@ -90,10 +90,10 @@ Pour chaque direction cardinale, un élément structurant asymétrique est const
 
 | Direction | Élément structurant (équivalent MATLAB) |
 |-----------|----------------------------------------|
-| Est       | `[zeros(1,H), 1, ones(1,H)]` — ligne vers la droite |
-| Ouest     | `[ones(1,H), 1, zeros(1,H)]` — ligne vers la gauche |
-| Sud       | `[zeros(V,1); 1; ones(V,1)]` — colonne vers le bas |
-| Nord      | `[ones(V,1); 1; zeros(V,1)]` — colonne vers le haut |
+| Est       | `[zeros(1,H), 1, ones(1,H)]` - ligne vers la droite |
+| Ouest     | `[ones(1,H), 1, zeros(1,H)]` - ligne vers la gauche |
+| Sud       | `[zeros(V,1); 1; ones(V,1)]` - colonne vers le bas |
+| Nord      | `[ones(V,1); 1; zeros(V,1)]` - colonne vers le haut |
 
 La dilatation dans une direction donnée "projette" le chiffre dans cette direction, permettant de tester si une région vide est **accessible** depuis ce côté.
 

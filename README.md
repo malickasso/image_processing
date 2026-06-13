@@ -1,6 +1,5 @@
 # tp_chiffres.py — Détection et analyse de chiffres manuscrits
 
-Équivalent Python du script MATLAB de TP en traitement d'image.  
 Le script détecte des chiffres dans une image, les isole, puis calcule leurs **cavités directionnelles** (Nord, Est, Sud, Ouest, Centre) pour produire un vecteur de caractéristiques utilisable pour l'entraînement d'un modèle de reconnaissance.
 
 ---
@@ -41,7 +40,7 @@ Project/
 2. Modifiez la ligne suivante dans le script si ton image a un nom différent :
 
 ```python
-IMAGE_PATH = 'test.jpeg'   # ← mets le bon nom ici
+IMAGE_PATH = 'test.jpeg'   # ← mettez le bon nom ici
 ```
 
 3. Lancez le script :
@@ -159,6 +158,7 @@ Ces vecteurs servent de **features d'entrée** pour entraîner un modèle de cla
 - **DOUGLOUI Adinette**
 - **YEMADJE Waldo Coras**
 - **BANGANA C.K. Landry**
+
 Master 1 Sécurité Informatique - IFRI, Université d'Abomey-Calavi  
 
 Cours : Traitement d'image - **Dr Arnaud AHOUANDJINOU**
